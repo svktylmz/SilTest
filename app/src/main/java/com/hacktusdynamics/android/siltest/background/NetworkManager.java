@@ -1,22 +1,18 @@
 package com.hacktusdynamics.android.siltest.background;
 
-import android.util.Log;
-
-import com.hacktusdynamics.android.siltest.MainActivity;
 import com.hacktusdynamics.android.siltest.model.LoginModel;
 import com.hacktusdynamics.android.siltest.model.ReturnedObject;
 
-import org.json.JSONObject;
-
 import java.io.IOException;
-import java.util.ArrayList;
-
-import static com.hacktusdynamics.android.siltest.background.NetworkManager.parseTheContent;
 
 public class NetworkManager {
     private static final String TAG = NetworkManager.class.getSimpleName();
 
+    public static ReturnedObject LoginToSystem(LoginModel loginModel) throws IOException {
+        return null;
+    }
 
+/*
     public static ReturnedObject LoginToSystem(LoginModel loginModel) throws IOException {
         try {
             ReturnedObject returnedObject = null;
@@ -79,4 +75,7 @@ public class NetworkManager {
             return null;
         }
     }
+*/
+
+
 }
